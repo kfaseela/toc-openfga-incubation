@@ -268,11 +268,15 @@ Read AI, a leading meeting intelligence platform serving over 100,000 organizati
 Reference: [OpenFGA Adopter Interview - Read AI](/projects/openfga/openfga-adopter-interview-readai.md)
 
 ##### Adopter 2 - Agicap / Fintech  
-SEPTEMBER 2025  
+_September 2025_ 
 
 Agicap, a European fintech serving over 8,000 customers, adopted OpenFGA in April 2023 to replace an internally built RBAC solution with a scalable ReBAC-based authorization system. Today, OpenFGA underpins all authorization across Agicap’s SaaS platform, running in both production and pre-production environments at ~250 RPS. The project’s flexibility, strong documentation, and responsive maintainers were key factors in adoption. Agicap actively contributes bug fixes and performance improvements upstream, participates in community meetings, and has co-presented with maintainers at KubeCon. Key strengths cited include OpenFGA’s robust ReBAC model, reliability at production scale, and an engaged community, while areas for improvement include maintainer diversity and support for idempotent batch writes.
 
 Reference: [OpenFGA Adopter Interview - Agicap](/projects/openfga/openfga-adopter-interview-agicap.md)
 
-##### Adopter 3 - $COMPANY/$INDUSTRY
-_MONTH YEAR_
+##### Adopter 3 - Docker / Cloud Infrastructure & Developer Tools
+_September 2025_
+
+Docker adopted OpenFGA in early 2024 to replace its internal access control system with a flexible, ReBAC-based solution. The project is used in production across multiple services, handling 100–150 RPS, and has demonstrated measurable value by centralizing permission management, reducing manual overhead, and accelerating integration of new products. Key drivers for adoption included self-hosting, open-source availability, mature SDKs, and an active, responsive community. Docker highlighted the project’s robust performance, clear documentation, and strong maintainers as core strengths, while noting potential improvements in DSL tooling, batch evaluation optimizations, and broader marketing to increase awareness and adoption.
+
+Reference: [OpenFGA Adopter Interview - Docker](/projects/openfga/openfga-adopter-interview-docker.md)
