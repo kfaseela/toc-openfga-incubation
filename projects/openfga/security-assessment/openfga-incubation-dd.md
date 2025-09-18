@@ -209,20 +209,25 @@ N/A
 ### Required
 
 - [x] **Clearly defined and discoverable process to report security issues.**
-  - OpenFGA maintains a clear vulnerability reporting process through its [security policy](https://github.com/openfga/community/security/policy), specifying how to report vulnerabilities, triage them, and the expected response timelines.
+  - OpenFGA maintains a clear vulnerability reporting process through its [security policy](https://github.com/openfga/community/security/policy), specifying how to report vulnerabilities, triage them, and the expected response timelines.  
+  - Security reports are handled with a structured workflow that includes acknowledgment, triage, mitigation, and disclosure stages.
 
 - [x] **Enforcing Access Control Rules to secure the code base against attacks (Example: two factor authentication enforcement, and/or use of ACL tools.)**
-  - All members of the OpenFGA organization are required to enable [two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) for GitHub, ensuring secure access control to the repositories.
+  - All members of the OpenFGA organization are required to enable [two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) for GitHub, ensuring secure access control to the repositories.  
+  - Repository permissions are strictly managed, with role-based access control and separation of duties for code and documentation contributions.
 
 - [x] **Document assignment of security response roles and how reports are handled.**
-  - Security response roles are defined in [GOVERNANCE.md](https://github.com/openfga/.github/blob/main/GOVERNANCE.md) and the [security policy](https://github.com/openfga/community/security/policy), detailing how reports are handled, triaged, and escalated.
+  - Security response roles are defined in [GOVERNANCE.md](https://github.com/openfga/.github/blob/main/GOVERNANCE.md) and the [security policy](https://github.com/openfga/community/security/policy), detailing how reports are handled, triaged, and escalated.  
+  - OpenFGA rotates security team responsibilities to ensure diverse coverage and minimize single points of failure.
 
 - [x] **Document Security Self-Assessment.**
-  - OpenFGA completed a self-assessment documented at [Self-Assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/self-assessment.md) and a joint assessment at [Joint Assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/joint-assessment.md), reviewing security practices, threat modeling, and compliance with CNCF recommendations.
+  - OpenFGA completed a self-assessment documented at [Self-Assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/self-assessment.md) and a joint assessment at [Joint Assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/joint-assessment.md), reviewing security practices, threat modeling, and compliance with CNCF recommendations.  
+  - The assessments validate adherence to cloud-native security principles, including secure defaults, configurable authentication/authorization strategies, and robust dependency management.  
+  - OpenFGA’s immutable authorization models, “deny by default” approach, and incremental TLS enablement reduce risk and support secure deployments at scale.
 
 - [x] **Achieve the Open Source Security Foundation (OpenSSF) Best Practices passing badge.**
-  - OpenFGA holds the [OpenSSF Best Practices Badge](https://www.bestpractices.dev/en/projects/6374), demonstrating adherence to key security practices including vulnerability management, secure development, and community awareness.
-
+  - OpenFGA holds the [OpenSSF Best Practices Badge](https://www.bestpractices.dev/en/projects/6374), demonstrating adherence to key security practices including vulnerability management, secure development, supply chain security, and community awareness.  
+  - Continuous scanning of dependencies, CVE tracking, pinned GitHub Actions workflows, and secure project management settings reinforce adherence to OpenSSF best practices.
 
 ## Ecosystem
 
