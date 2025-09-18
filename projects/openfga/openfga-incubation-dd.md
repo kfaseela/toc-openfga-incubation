@@ -265,10 +265,14 @@ _August 2025_
 
 Read AI, a leading meeting intelligence platform serving over 100,000 organizations, adopted OpenFGA in production to achieve scalable, high-performance, and secure authorization. They were drawn to OpenFGA for its Zanzibar-inspired model, detailed documentation, responsive maintainers, and self-hosting capabilities. Since April 2023, Read AI’s deployment handles over 5,200 requests/sec with low latency, managing billions of tuples reliably. Adoption of OpenFGA has improved internal design practices, reduced infrastructure costs, and provided confidence in secure data authorization. The project’s strong technical foundation and active community have enabled smooth integration, though the adopter notes that broader maintainer diversity could further enhance governance and sustainability.
 
- Reference: [OpenFGA Adopter Interview - Read AI](/projects/openfga/openfga-adopter-interview-readai.md)
+Reference: [OpenFGA Adopter Interview - Read AI](/projects/openfga/openfga-adopter-interview-readai.md)
 
-##### Adopter 2 - $COMPANY/$INDUSTRY
-_MONTH YEAR_
+##### Adopter 2 - Agicap / Fintech  
+SEPTEMBER 2025  
+
+Agicap, a European fintech serving over 8,000 customers, adopted OpenFGA in April 2023 to replace an internally built RBAC solution with a scalable ReBAC-based authorization system. Today, OpenFGA underpins all authorization across Agicap’s SaaS platform, running in both production and pre-production environments at ~250 RPS. The project’s flexibility, strong documentation, and responsive maintainers were key factors in adoption. Agicap actively contributes bug fixes and performance improvements upstream, participates in community meetings, and has co-presented with maintainers at KubeCon. Key strengths cited include OpenFGA’s robust ReBAC model, reliability at production scale, and an engaged community, while areas for improvement include maintainer diversity and support for idempotent batch writes.
+
+Reference: [OpenFGA Adopter Interview - Agicap](/projects/openfga/openfga-adopter-interview-agicap.md)
 
 ##### Adopter 3 - $COMPANY/$INDUSTRY
 _MONTH YEAR_
