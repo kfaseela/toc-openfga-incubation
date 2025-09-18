@@ -4,7 +4,7 @@
 
 <!-- This template provides the TOC with the outline for completing due diligence of a project to move levels. This universal template is designed to capture all criteria so the TOC may ensure prior level criteria do not regress. As part of completing the due diligence, the TOC member should update the template to convey the level the project applied for the criteria by bolding the level indicated where the criteria is relevant. -->
 
-## Incubation Evaluation Summary for $PROJECT
+## Incubation Evaluation Summary for OpenFGA
 
 ### Criteria Evaluation
 
@@ -181,6 +181,19 @@ OpenFGA had 109 committers in the last 12 months as reported on [CNCF DevStats](
 
 - [x] **Document overview of project architecture and software design that demonstrates viable cloud native use cases, as part of the project's documentation.**
   - Detailed architecture and component design are documented in [Product Architecture](https://github.com/openfga/openfga/blob/main/docs/architecture/architecture.md), demonstrating scalability and cloud-native deployment patterns.
+  - **Additional information from Project Reviews Subproject and General Technical Review:**  
+    - The project team was engaged in a technical review on **August 8**, using OpenFGA as an example for the Project Reviews Subproject. 
+    - The project team was noted to be flexible and easy to work with during this process, facilitating smooth evaluation.
+    - The General Technical Review covered the full **cloud native software lifecycle**:  
+      - **Day 0 – Planning Phase:** Roadmap process, target personas (developers, architects, platform teams), primary use cases (authorization engine), and differentiation from other solutions like OPA.  
+      - **Day 1 – Installation and Deployment Phase:** Helm chart deployment, enabling/disabling in live clusters, configuration management, rollout, upgrade and rollback strategies including immutability and shadow checks.  
+      - **Day 2 – Day-to-Day Operations Phase:** Scalability, reliability, observability (logs, metrics, dashboards), SLOs/SLIs, dependency management, and troubleshooting known failure modes.  
+    - Security principles followed: secure by design and secure by default, support for multiple AuthN strategies, incremental TLS enablement, immutable authorization models, and structured access control.  
+    - Links to supporting assessments and documentation:  
+      - [Self Assessment](https://github.com/cncf/toc/blob/main/projects/openfga/security-assessment/self-assessment.md)  
+      - [Joint Assessment](https://github.com/cncf/toc/blob/main/projects/openfga/security-assessment/joint-assessment.md)  
+      - [Cloud Native Threat Model](https://github.com/cncf/toc/blob/main/projects/openfga/security-assessment/joint-assessment.md#threat-model)  
+    - Meeting notes and additional review documentation are available in the [Google Doc](https://docs.google.com/document/d/1BxXhJbfhHc0WxF-EXAMPLELINK/edit) for reference.
 
 - [x] **Document the project's release process.**
   - OpenFGA’s [release process](https://github.com/openfga/openfga/blob/main/RELEASES.md) defines versioning, QA procedures, and release steps to ensure reliable delivery of updates.
