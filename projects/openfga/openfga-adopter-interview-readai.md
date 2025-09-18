@@ -1,113 +1,97 @@
-# OpenFGA Adopter Interview - Read AI
-**Status:** Draft
+## OpenFGA Adopter Interview - Read AI
 
-**Meeting Time:** 2025-08-09  
+**Meeting Time:** 8/9/2025  
 **Meeting Record:** TBD  
 
-## Attendees
+**Attendees:**  
 - **TOC:** Faseela K, TOC Sponsor of KServe  
 - **TOC Shadow:** Ricardo Aravena  
-- **Adopter:** Andrew Powers, Software Engineering Manager at Read AI
+- **Adopter:** Andrew Powers, Software Engineering Manager, Read AI
 
----
+### Organization Intro
+### Can you give us an overview of your organization and what it does?  
+Read AI is the fastest-growing meeting notetaker and AI assistant in the world, acting as a store of intelligence across meetings, messages, email, documents, and every workplace touchpoint. Based in Seattle and trusted by more than 100,000 organizations and 75% of the Fortune 500, the platform is adding over 1 million new customers every month who value its commitment to transparency and security based on robust, scalable authorization.  
 
-## About the Adopter Interview
-The intent of the interview is to ascertain the maturity and adoption of the OpenFGA project by adopters. Notes are recorded here for review and approval before inclusion in OpenFGA’s due diligence document.  
-
----
-
-## Organization Intro
-**Can you give us an overview of your organization and what it does?**  
-Read AI is the fastest-growing meeting notetaker and AI assistant in the world, acting as a store of intelligence across meetings, messages, email, documents, and other workplace touchpoints. Based in Seattle and trusted by more than 100,000 organizations and 75% of the Fortune 500, the platform is adding over 1 million new customers every month. They value transparency and security based on robust, scalable authorization.
-
----
-
-## Motivation
-**Compared with other products in this space (proprietary and open), what drew you to the project?**  
+### Motivation
+### Compared with other products in this space (proprietary and open), what drew you to the project?  
 - Considered alternatives such as Authzed.  
-- Previously used a proprietary authorization solution but faced performance and scalability issues.  
+- Previously used a proprietary, organically built authorization solution, but faced performance and scalability issues.  
 - Sought a solution with stronger sharing capabilities, standard best practices, and open source flexibility.  
-- OpenFGA stood out for:
+- OpenFGA stood out for:  
   - Clear and detailed documentation.  
-  - Based on Google Zanzibar, aligning with desired product functionality.  
-  - Approachable, supportive, and responsive maintainers.  
+  - Based on Google Zanzibar, which aligned well with their desired product functionality.  
+  - Maintainers who were approachable, supportive, and responsive.  
   - Ability to self-host.  
-  - Cost-effectiveness and high performance.  
+  - Cost-effectiveness and performance compared to proprietary offerings.  
 
----
-
-## Usage Scenario
-**How long has your organization used the project?**  
-- Evaluation began in February 2023.  
+### Usage Scenario
+### How long has your organization used the project?  
+- Began evaluation in February 2023.  
 - Running in production since April 28, 2023.  
 
-**Main motivations to adopt and key features used today:**  
-- Need for scalable, reliable authorization with strong sharing semantics.  
-- Uses most core features and integrates with Postgres for persistence.  
+### What were the main motivations to adopt the project and which key features do you use today?  
+- Adoption motivated by the need for scalable, reliable authorization with strong sharing semantics.  
+- Using most of the core features.  
+- Integration with Postgres for persistence.  
 
-**Current level of usage and scale:**  
-- Production.  
-- Handles 5,200 requests per second under peak load with 20 ms p99 latency and 1.8 ms average latency.  
-- Data store currently holds 5,323,283,829 tuples, growing daily.  
+### What is the current level of usage (pre-production, production) and scale?  
+- **Production.**  
+- Self-hosted OpenFGA service handles **5,200 requests/sec under peak load** with **20ms p99 latency** and **1.8ms average latency**.  
+- Data store holds **5,323,283,829 tuples** and is growing daily.  
 
-**Version and update cadence:**  
+### What version is used and what is your update cadence with the project?  
 - Currently using v1.8.16.  
 - Internal cadence: monthly updates.  
-- OpenFGA release cadence is faster than adoption, but upgrades are smooth with no backward compatibility issues.  
+- OpenFGA release cadence is faster than Read AI’s adoption cadence, but upgrades have been smooth with no significant backward compatibility issues.  
 
-**Adoption and integration experience:**  
-- Aligning internal data models with OpenFGA was the biggest challenge.  
-- Migration from proprietary system required careful design and data import.  
-- Performance at peak load has been excellent; OpenFGA never a bottleneck.  
+### Can you walk me through what your experience was in either adopting it outright or integrating it with your existing services and applications? What challenges did you experience with the project?  
+- Aligning internal data models with OpenFGA’s authorization model was the biggest challenge.  
+- Migration from proprietary system required careful design and data imports, but subsequent upgrades have been straightforward.  
+- Performance at peak load has been excellent; OpenFGA has never been a bottleneck.  
 
-**Documentation utility:**  
-- Documentation was key, with practical examples and modeling guides being especially useful.  
-- Bulk tuple import documentation was referenced during implementation.  
+### Did you find the information in the repo or the project docs valuable to your implementation? If so, what did you find useful?  
+- Yes, the documentation was key to adoption.  
+- Practical examples and detailed modeling guides were especially useful.  
+- Documentation on bulk tuple import was referenced during implementation.  
 
-**Measurable value:**  
+### Has your implementation of the project provided measurable value?  
 - Improved confidence in secure data authorization.  
 - Adoption of best practices improved internal design decisions.  
-- Cost savings: reduced compute and hosting costs.  
-- Reliable system performance even at high loads.  
+- **Cost savings:** reduced compute and hosting costs due to OpenFGA’s optimized, self-hosted performance.  
+- **Reliability:** system performance has been stable even at high loads.  
 
-**Future plans:**  
-- Submit a case study and potentially a conference talk.  
-- Open to further upstream contributions as engineering team grows.  
+### Do you have any future plans regarding the project?  
+- Intend to submit a case study and potentially a conference talk on the adoption experience.  
+- Currently not contributing upstream but open to more involvement in the future as the engineering team expands.  
 
----
+### Perception
+### What is your perception in terms of the project’s:  
+- **Community openness:** The community is active, approachable, and supportive. Reported issues and feature requests receive timely and constructive responses.  
+- **Governance:** Limited visibility into governance structure. While functional, greater transparency would be beneficial.  
+- **Community growth potential:** Strong growth observed, with adoption increasing across diverse companies, including large enterprises.  
+- **Maintainer diversity:** Currently concentrated within a single company. Broader diversity is needed for long-term sustainability.  
+- **Maintainer response:** Maintainers are responsive and effective, with bugs fixed quickly and feature requests handled thoughtfully.  
 
-## Perception
-**Project perception:**  
-
-- **Community openness:** Active, approachable, supportive; timely and constructive responses.  
-- **Governance:** Limited visibility; appears functional but greater transparency desired.  
-- **Community growth potential:** Strong growth with adoption from diverse organizations.  
-- **Maintainer diversity:** Heavily concentrated in a single company; broader diversity needed for long-term sustainability.  
-- **Maintainer response:** Responsive and effective; bugs fixed quickly, feature requests handled thoughtfully.  
-
-**Participation in project community:**  
+### How are you participating in the project community?  
 - Attend community meetings.  
-- Reported bugs fixed promptly.  
-- Track project progress actively.  
+- Reported bugs that were promptly fixed by maintainers.  
+- Actively track project progress and updates.  
 
-**Community engagement:**  
-- Engagement via community channels productive.  
-- Maintainers responded quickly to bugs and feature requests with high-quality outcomes.  
+### Did you need to engage with the community members or maintainers? If so, what was the context and outcome?  
+- Yes, engagement via community channels was productive.  
+- Maintainers responded quickly to bugs and feature requests, with high-quality outcomes.  
 
----
-
-## Project Strengths
-- Excellent documentation (clear, practical, example-driven).  
-- Strong project focus, solving a specific problem well.  
+### Project Strengths
+### In your opinion, what are the overall strengths of the project?  
+- Excellent documentation (clear, practical, and example-driven).  
+- Strong project focus (solves a specific problem very well).  
 - High performance and reliability in production.  
-- Support from larger companies in the ecosystem.  
+- Support and backing from larger companies in the ecosystem.  
 - Engaged and responsive community.  
 
----
+### Project Improvements
+### Is there something you feel that holds the project back from reaching its ultimate potential?  
+- Maintainer diversity—project governance is still concentrated in a single company.  
 
-## Project Improvements
-**Challenges to full potential:**  
-- Maintainer diversity; governance concentrated in one company.  
-
-**Recommendations:**  
-- Broaden the maintainer base and governance to improve sustainability and community trust.
+### In your opinion, what can the project do better?  
+- Broaden the maintainer base and governance to increase sustainability and community trust.
