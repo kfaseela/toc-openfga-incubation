@@ -260,17 +260,15 @@ N/A
       
 #### Adoption
 
-##### Adopter 1 - $COMPANY/$INDUSTRY
+##### Adopter 1 - Read AI / Meeting Intelligence
+_August 2025_
 
-_If the Adopting organization needs to remain anonymous, stating the industry vertical is sufficient._
-MONTH YEAR
+Read AI, a leading meeting intelligence platform serving over 100,000 organizations, adopted OpenFGA in production to achieve scalable, high-performance, and secure authorization. They were drawn to OpenFGA for its Zanzibar-inspired model, detailed documentation, responsive maintainers, and self-hosting capabilities. Since April 2023, Read AI’s deployment handles over 5,200 requests/sec with low latency, managing billions of tuples reliably. Adoption of OpenFGA has improved internal design practices, reduced infrastructure costs, and provided confidence in secure data authorization. The project’s strong technical foundation and active community have enabled smooth integration, though the adopter notes that broader maintainer diversity could further enhance governance and sustainability.
+
+ Reference: [OpenFGA Adopter Interview - Read AI](/projects/openfga/openfga-adopter-interview-readai.md)
 
 ##### Adopter 2 - $COMPANY/$INDUSTRY
-
-_If the Adopting organization needs to remain anonymous, stating the industry vertical is sufficient._
-MONTH YEAR
+_MONTH YEAR_
 
 ##### Adopter 3 - $COMPANY/$INDUSTRY
-
-_If the Adopting organization needs to remain anonymous, stating the industry vertical is sufficient._
-MONTH YEAR
+_MONTH YEAR_
