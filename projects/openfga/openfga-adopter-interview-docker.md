@@ -1,17 +1,11 @@
 # OpenFGA Adopter Interview - Docker  
-**[Status: Draft]**
 
 **Meeting Time:** 9/11/2025  
 **Meeting Record:** TBD  
 **Attendees:**  
 - TOC: Faseela K, TOC Sponsor of KServe  
 - TOC Shadow: Ricardo Aravena  
-- Adopter: Gurleen Sethi (gurleen.sethi@docker.com)  
-
-## About the Adopter interview  
-The intent of the interview is to ascertain the maturity and adoption of the OpenFGA project by adopters of the project. It’s OK to be public or private.  
-
-TOC will record raw notes here, then the notes will be cleaned up and shared with you for your review, correction, and final approval. Once approved, they’ll go into OpenFGA’s due diligence document.  
+- Adopter: Gurleen Sethi, Senior Software Engineer at Docker, Inc.
 
 ## Organization Intro  
 
