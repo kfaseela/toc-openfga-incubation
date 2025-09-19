@@ -8,7 +8,57 @@
 
 ### Criteria Evaluation
 
-_$TOCMEMBER conducted the due diligence of $PROJECT who applied for $LEVEL. The project [has/has not] completed the criteria that show its maturity at $LEVEL. The following criteria implementations are noteworthy to call out... $NOTABLES. The following actions were provided to the project that were considered blocking but since resolved... $BLOCKERS. The following recommendations were provided to the project that are non-blocking in the TOC's assessment but should be completed by the project to ensure continued viability of the project... $RECOMMENDATIONS._
+# Criteria Evaluation
+
+$TOCMember conducted the due diligence of **OpenFGA**, which applied for incubation. The project has <TBD> the criteria that demonstrate its maturity at incubation.
+
+## Noteworthy Implementations
+
+The OpenFGA team has shown substantial progress across CNCF incubation criteria:
+
+- **Open Governance Structure**:  
+  - Governance is documented in [GOVERNANCE.md](https://github.com/openfga/.github/blob/main/GOVERNANCE.md), with clear roles for maintainers, TSC responsibilities, and decision-making processes.  
+  - While the governance model follows CNCF guidelines, the current maintainer pool is primarily Okta-driven, which raises neutrality concerns noted by adopters.
+
+- **Strong Community and Contributor Growth**:  
+  - Over 100 active contributors in the past year ([DevStats](https://all.devstats.cncf.io/d/53/projects-health-table?orgId=1)), with consistent high contribution velocity (1,400+ contributions/month).  
+  - Public community meetings occur monthly with agendas and notes available ([community page](https://openfga.dev/docs/community#monthly-community-meetings)).  
+  - RFC-driven roadmap development ([RFC repo](https://github.com/openfga/rfcs)) enables transparent technical decision-making.
+
+- **Robust Engineering and Security Practices**:  
+  - Documented [release process](https://github.com/openfga/openfga/blob/main/RELEASES.md) with regular releases and QA checks.  
+  - Completed [security self-assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/self-assessment.md) and [joint assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/joint-assessment.md).  
+  - Holds the [OpenSSF Best Practices badge](https://www.bestpractices.dev/en/projects/6374).
+
+- **Industry Adoption**:  
+  - Production deployments at **Canonical, Docker, Agicap, Read AI, Stacklok, and Configu**, demonstrating scalability to billions of tuples and thousands of requests/sec.  
+  - Adopters report high-quality documentation, responsiveness of maintainers, and strong security model.
+
+- **Ecosystem Integrations**:  
+  - Integrates with CNCF projects including Kubernetes/Helm, OpenTelemetry, Prometheus, and Grafana.  
+  - SDKs in multiple languages lower adoption barriers.
+
+## Blockers (Previously Raised, Now Resolved)
+
+- **Security Review**: Completion of [security self-assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/self-assessment.md) and [joint assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/projects/openfga/joint-assessment.md), addressing design and threat modeling gaps.  
+- **Governance Documentation**: Expanded governance and maintainer details in [GOVERNANCE.md](https://github.com/openfga/.github/blob/main/GOVERNANCE.md) and [MAINTAINERS.md](https://github.com/openfga/.github/blob/main/MAINTAINERS.md), ensuring clarity in contributor pathways and decision-making.  
+- **Adopter Verification**: Multiple independent production adopters documented in [ADOPTERS.md](https://github.com/openfga/community/blob/main/ADOPTERS.md), confirming real-world use cases.
+
+## Recommended Enhancements (Non-Blocking)
+
+The following items remain open and may not block incubation, but should be completed before graduation:
+
+- **Maintainer Diversity and Neutrality**: Expand the maintainer base beyond Okta to reduce single-vendor dependence and strengthen long-term neutrality. *(Tracking issue: [openfga/community#65](https://github.com/openfga/community/issues/65))*
+
+- **Transparency in Support**: Adopter feedback revealed reliance on **private support channels with Okta maintainers**, which creates inequity and goes against CNCF’s recommendation for open, transparent community support. The project should discourage private support channels and ensure all discussions happen in public forums.
+
+- **Governance Evolution**: Document clearer processes for roadmap approvals, leadership decisions, and potential subproject governance. *(Related: [openfga/community#66](https://github.com/openfga/community/issues/66))*
+
+- **Maintainer Lifecycle**: Define and demonstrate onboarding, offboarding, and emeritus processes. *(Related: [openfga/community#67](https://github.com/openfga/community/issues/67))*
+
+- **Developer Experience**: Address adopter feedback on DSL tooling improvements, batch operations, and idempotent writes. *(Issues: [openfga/openfga#987](https://github.com/openfga/openfga/issues/987), [openfga/openfga#1021](https://github.com/openfga/openfga/issues/1021))*
+
+- **Community Outreach**: Increase visibility through case studies, blogs, and talks to grow adoption beyond early contributors. *(Tracking issue to be opened in [community repo](https://github.com/openfga/community))*
 
 ### Adoption Evaluation
 
