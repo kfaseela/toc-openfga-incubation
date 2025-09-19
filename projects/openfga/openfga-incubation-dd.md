@@ -48,17 +48,17 @@ The OpenFGA team has shown substantial progress across CNCF incubation criteria:
 
 The following items remain open and may not block incubation, but should be completed before graduation:
 
-- **Maintainer Diversity and Neutrality**: Expand the maintainer base beyond Okta to reduce single-vendor dependence and strengthen long-term neutrality. *(Tracking issue: [openfga/community#65](https://github.com/openfga/community/issues/65))*
+- **Maintainer Diversity and Neutrality**: Expand the maintainer base beyond Okta to reduce single-vendor dependence and strengthen long-term neutrality. *(Tracking issue: TBD)*
 
 - **Transparency in Support**: Adopter feedback revealed reliance on **private support channels with Okta maintainers**, which creates inequity and goes against CNCF’s recommendation for open, transparent community support. The project should discourage private support channels and ensure all discussions happen in public forums.
 
-- **Governance Evolution**: Document clearer processes for roadmap approvals, leadership decisions, and potential subproject governance. *(Related: [openfga/community#66](https://github.com/openfga/community/issues/66))*
+- **Governance Evolution**: Document clearer processes for roadmap approvals, leadership decisions, and potential subproject governance. *(Tracking issue : TBD)*
 
-- **Maintainer Lifecycle**: Define and demonstrate onboarding, offboarding, and emeritus processes. *(Related: [openfga/community#67](https://github.com/openfga/community/issues/67))*
+- **Maintainer Lifecycle**: Define and demonstrate onboarding, offboarding, and emeritus processes. *(Tracking issue : TBD)*
 
-- **Developer Experience**: Address adopter feedback on DSL tooling improvements, batch operations, and idempotent writes. *(Issues: [openfga/openfga#987](https://github.com/openfga/openfga/issues/987), [openfga/openfga#1021](https://github.com/openfga/openfga/issues/1021))*
+- **Developer Experience**: Address adopter feedback on DSL tooling improvements, batch operations, and idempotent writes. *(Tracking issue : TBD)*
 
-- **Community Outreach**: Increase visibility through case studies, blogs, and talks to grow adoption beyond early contributors. *(Tracking issue to be opened in [community repo](https://github.com/openfga/community))*
+- **Community Outreach**: Increase visibility through case studies, blogs, and talks to grow adoption beyond early contributors. *(Tracking issue: TBD)*
 
 ### Adoption Evaluation
 
